@@ -1,0 +1,44 @@
+.custom-node {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #fa8231;
+    border-radius: 8px;
+    width: 400px;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .node-header {
+    background-color: #323232;
+    border-bottom: 1px solid #fa8231;
+    padding: 5px;
+  }
+  
+  .node-header h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #fa8231;
+  }
+  
+  .node-body {
+    padding: 10px;
+  }
+  
+  .method-name {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .node-body p {
+    margin: 4px 0;
+  }
+  .custom-node {
+    z-index: 10; 
+  }
+  
+  .react-flow__edge-path {
+    z-index: 0;
+  }
+  

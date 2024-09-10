@@ -1,0 +1,70 @@
+
+.right-sidebar {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    color: white;
+    width: 300px;
+    height: 100vh;
+    background-color: #363636;
+    padding: 0px 20px;
+    overflow-y: auto;
+    z-index: 1001;
+  }
+  
+  Styling for the form elements within the sidebar
+  .cart-campaign {
+    font-family: Arial, sans-serif;
+  }
+  
+  .cart-campaign h2 {
+    margin-bottom: 10px;
+  }
+  
+  .cart-campaign label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+  }
+  
+  .cart-campaign div {
+    margin-bottom: 10px;
+  }
+  
+  .cart-campaign input,
+  .cart-campaign select {
+    padding: 8px;
+    background: transparent;
+    color: white;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .cart-campaign input:disabled {
+    background-color: #f0f0f080;
+    color: #a0a0a0;
+    cursor: not-allowed;
+  }
+  
+  .cart-campaign button {
+    padding: 10px 20px;
+    background-color: #be5b0a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cart-campaign button:hover {
+    background-color: #cfb20b;
+  }
+  .checkbox-container {
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+    margin-bottom: 5px;
+  }
+
+
+  
